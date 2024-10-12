@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|solutionrelative:cards_simulator\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\often_used.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|solutionrelative:cards_simulator\\often_used.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\often_used.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|solutionrelative:cards_simulator\\often_used.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|solutionrelative:cards_simulator\\card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\cards_simulator_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B3FB56A2-110E-4735-8AE0-4679C653C357}|cards_simulator\\cards_simulator.vcxproj|solutionrelative:cards_simulator\\cards_simulator_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "often_used.cpp",
+              "DocumentMoniker": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\often_used.cpp",
+              "RelativeDocumentMoniker": "cards_simulator\\often_used.cpp",
+              "ToolTip": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\often_used.cpp",
+              "RelativeToolTip": "cards_simulator\\often_used.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T10:42:07.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "card.cpp",
+              "DocumentMoniker": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\card.cpp",
+              "RelativeDocumentMoniker": "cards_simulator\\card.cpp",
+              "ToolTip": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\card.cpp",
+              "RelativeToolTip": "cards_simulator\\card.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T10:42:06.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "often_used.h",
+              "DocumentMoniker": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\often_used.h",
+              "RelativeDocumentMoniker": "cards_simulator\\often_used.h",
+              "ToolTip": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\often_used.h",
+              "RelativeToolTip": "cards_simulator\\often_used.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-12T10:42:04.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "card.h",
+              "DocumentMoniker": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\card.h",
+              "RelativeDocumentMoniker": "cards_simulator\\card.h",
+              "ToolTip": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\card.h",
+              "RelativeToolTip": "cards_simulator\\card.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-12T10:42:02.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cards_simulator_main.cpp",
+              "DocumentMoniker": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\cards_simulator_main.cpp",
+              "RelativeDocumentMoniker": "cards_simulator\\cards_simulator_main.cpp",
+              "ToolTip": "D:\\SelfLearning\\MyThings\\cards_simulator\\CardSimulator\\cards_simulator\\cards_simulator\\cards_simulator_main.cpp",
+              "RelativeToolTip": "cards_simulator\\cards_simulator_main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-12T10:42:00.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
