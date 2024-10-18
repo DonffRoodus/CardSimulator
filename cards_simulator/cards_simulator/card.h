@@ -29,6 +29,24 @@ public:
 	/// </summary>
 	/// <returns>True if input goes successfully, otherwise false.</returns>
 	bool Input();
+	/**
+	 * \brief Get the card spot.
+	 * 
+	 * \return The card's spot.
+	 */
+	int get_spot()const;
+	/**
+	 * \brief Get the suit of the card.
+	 * 
+	 * \return The suit.
+	 */
+	char get_suit()const;
+	/**
+	 * \brief Decides whether the card is face down.
+	 * 
+	 * \return True if the card is face down, otherwise false.
+	 */
+	bool is_face_down()const;
 };
 
 /// <summary>
@@ -49,4 +67,23 @@ int ResetDeck(std::list<Card>& deck);
 /// <param name="kSuit">The suit to be judged.</param>
 /// <returns>True if it is valid, otherwise false.</returns>
 bool is_valid_suit(const char kSuit);
+/**
+ * \brief Output the whole deck.
+ * \param deck: The deck.
+ * \param out: The output stream.
+ */
+void OutputDeck(const std::list<Card>& deck, std::ostream& out = std::cout);
+/**
+ * \brief Shuffle the deck.
+ */
+void ShuffleDeck(std::list<Card>& deck);
+/**
+ * \brief Execute a faro shuffle.
+ * \param deck: The deck to be shuffled.
+ * \param is_top_remained: Decides whether the top card should remain there.
+ */
+void FaroShuffle(std::list<Card>& deck, const bool is_top_remained);
+
+
+
 

@@ -14,5 +14,11 @@ int main()
 {
 	std::list<Card> deck;
 	InitializeDeck(deck);
+	OutputDeck(deck);
+	std::cout << std::endl;
+	for (int i = 0; i < 8; i++)
+		FaroShuffle(deck, 1);
+	OutputDeck(deck);
+
 	return 0;
 }
