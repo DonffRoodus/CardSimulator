@@ -7,15 +7,28 @@
  *********************************************************************/
 #include <list>
 #include <iostream>
+#include <cctype>
 #include "card.h"
 #include "often_used.h"
 
-Card::Card(int card_num, int card_suit, bool is_face_down, int num_in_the_deck)
+Card::Card(int card_num, char card_suit, bool is_face_down, int num_in_the_deck)
 {
 	card_num_ = card_num;
 	card_suit_ = card_suit;
 	is_face_down_ = is_face_down;
 	num_in_the_deck = num_in_the_deck;
+}
+bool Card::Input()
+{
+	card_num_ = InputInt(1, kCardsNumOfEachSuit, "The spot is:");
+	char suit;
+	std::cout << "suit is:";
+	std::cin >> suit;
+	if (is_valid_suit(suit))
+		card_suit_ = suit;
+	else
+		return false;
+	return true;
 }
 
 int InitializeDeck(std::list<Card>& deck)
@@ -42,8 +55,8 @@ int InitializeDeck(std::list<Card>& deck)
 		{
 			Card temp_card(14, 'J', 1, kSuitNum * kCardsNumOfEachSuit + 1);
 			deck.push_back(temp_card);
-			Card temp_card(15, 'J', 1, kSuitNum * kCardsNumOfEachSuit + 2);
-			deck.push_back(temp_card);
+			Card temp_card1(15, 'J', 1, kSuitNum * kCardsNumOfEachSuit + 2);
+			deck.push_back(temp_card1);
 		}
 		break;
 	case 3:
@@ -54,4 +67,33 @@ int InitializeDeck(std::list<Card>& deck)
 		return -1;
 	}
 	return 0;
+}
+int ResetDeck(std::list<Card>& deck)
+{
+	deck.clear();
+	int num_of_card = InputInt(1, kMaxCardsNum, "You are resetting the deck.\nHow many cards is in the deck?\n");
+	bool is_correctly_inputted = true;
+	for (int i = 0; i < num_of_card; i++)
+	{
+		Card temp(0, 0, 1, i + 1);
+		do
+		{
+			if (!is_correctly_inputted)std::cout << "Wrong input. Please input again:" << std::endl;
+			is_correctly_inputted = temp.Input();
+		} while (!is_correctly_inputted);
+		deck.push_back(temp);
+	}
+	return deck.size();
+}
+bool is_valid_suit(const char kSuit)
+{
+	bool is_valid = false;
+	for (int i = 0; i < kSuitNum; i++)
+	{
+		is_valid = is_valid || kSuit == kSuitSuffix[i];
+		is_valid = is_valid || toupper(kSuit) == kSuitSuffix[i];
+	}
+	is_valid = is_valid || kSuit == 'j';
+	is_valid = is_valid || kSuit == 'J';
+	return is_valid;
 }

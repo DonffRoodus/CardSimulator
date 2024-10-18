@@ -1,0 +1,3 @@
+﻿  card.cpp
+D:\SelfLearning\MyThings\cards_simulator\CardSimulator\cards_simulator\cards_simulator\card.cpp(86,18): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  cards_simulator.vcxproj -> D:\SelfLearning\MyThings\cards_simulator\CardSimulator\cards_simulator\x64\Debug\cards_simulator.exe
