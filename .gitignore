@@ -1,0 +1,11 @@
+# Ignore build and distribution directories
+build/
+dist/
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore specific files
+card_simulator.log
+convert_svg_to_png.py
+gui.spec
