@@ -1,12 +1,14 @@
 # Card Simulator
 
 ## Overview
-This project is a card simulation application that allows users to simulate various card games and scenarios.
+This project is a card simulation application to simulate cards' changes.
 
 ## Features
 - **Card Management**: Create, edit, and delete cards.
-- **Game Simulation**: Simulate different card games with customizable rules.
-- **Statistics**: Track and analyze game outcomes and player performance.
+- **Shuffle**: Shuffle the deck.
+- **Faro Shuffle**: Perform a Faro shuffle.
+- **Cut**: Cut the deck.
+- **Reverse**: Reverse the deck.
 
 ## Installation
 1. Clone the repository:
@@ -27,9 +29,3 @@ To start the application, run:
 ```
 python gui.py
 ```
-
-## Contributing
-Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on how to get started.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
